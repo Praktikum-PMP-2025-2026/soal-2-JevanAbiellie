@@ -30,7 +30,7 @@ int main(){
     arr[n] = 0;
     rekursi(last, &arr[n]);
     for (int i = 0; i < n-1; i++){
-        printf("LANGKAH %d ", arr[i]);
+        printf("LANGKAH %d\n", arr[i]);
     }
     printf("LANGKAH %d", arr[n]);
 }
